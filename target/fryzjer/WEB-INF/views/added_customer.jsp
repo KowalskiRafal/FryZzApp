@@ -22,7 +22,7 @@
 
 <script>
     var timer = setTimeout(function() {
-        window.location='/display_customers'
+        window.location='/single_customer'
     }, 5000);
 </script>
 

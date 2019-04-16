@@ -22,12 +22,23 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/display_customers">Wszyscy klienci</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/arranged">Umówieni</a>
+                    <a class="dropdown-item" href="/arranged">Wszyscy umówieni</a>
+                    <a class="dropdown-item" href="/your_arranged">Twoi umówieni</a>
                     <a class="dropdown-item" href="/not_arranged">Nie umówieni</a>
                 </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Wsparcie techniczne
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/support">Kontakt</a>
+                    <a class="dropdown-item" href="/doc">Dokumentacja</a>
+                </div>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="/logout">Wyloguj</a>
-            </li>
             </li>
         </ul>
         <span class="navbar-text">

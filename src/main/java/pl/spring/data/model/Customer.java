@@ -1,5 +1,7 @@
 package pl.spring.data.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.util.Date;
 import java.util.Objects;
@@ -12,27 +14,28 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false, name = "first_name")
+    @Column(nullable = false, name = "firstName")
     private String firstName;
 
-    @Column(unique = true, nullable = false, name = "last_name")
+    @Column(nullable = false, name = "lastName")
     private String lastName;
 
-    @Column(unique = true, nullable = false, name = "telephone_Number")
+    @Column(nullable = false, name = "telephoneNumber")
     private String telephoneNumber;
 
-    @Column(name = "visit_date")
+    @Column(name = "visitDate")
     @Temporal(TemporalType.DATE)
     private Date visitDate;
 
-    @Column(name = "visit_time")
+    @Column(name = "visitTime")
     @Temporal(TemporalType.TIME)
+    @DateTimeFormat(pattern = "HH:mm:ss")
     private Date visitTime;
 
-    @Column(name = "assigned_hairdresser")
+    @Column(name = "assignedHairdresser")
     private String assignedHairdresser;
 
-    @Column(name = "additional_info")
+    @Column(name = "additionalInfo")
     private String additionalInfo;
 
     @Column(name = "comments")

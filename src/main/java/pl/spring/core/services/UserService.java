@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import pl.spring.data.model.User;
 import pl.spring.data.repositories.UserRepository;
 import pl.spring.dto.LoggedUserDTO;
+import pl.spring.dto.UserDTO;
 
 import javax.transaction.Transactional;
 
@@ -39,5 +40,20 @@ public class UserService {
             loggedUserDTO.setLastName(user.getLastName());
         }
         return loggedUserDTO;
+    }
+
+    public UserDTO findByLogin(String login){
+        User user = userRepository.getUserByLogin(login);
+        return convertToDTO(user);
+    }
+
+    private UserDTO convertToDTO(User user){
+        UserDTO userDTO = new UserDTO();
+        userDTO.setId(user.getId());
+        userDTO.setFirstName(user.getFirstName());
+        userDTO.setLastName(user.getLastName());
+        userDTO.setLogin(user.getLogin());
+        userDTO.setPassword(user.getPassword());
+        return userDTO;
     }
 }

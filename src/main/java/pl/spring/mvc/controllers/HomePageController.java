@@ -25,24 +25,12 @@ public class HomePageController {
         this.userService = userService;
     }
 
-    /*
     @GetMapping
-    public String getHomePage(Model model) {
-        List<TopUserDTO> topUsers = userService.getTopUsers(10);
-        model.addAttribute("topUsers", topUsers);
-
-        List<TopSkillDTO> topSkills = skillService.getTopSkills(10);
-        model.addAttribute("topSkills", topSkills);
-        return "home";
-    }
-    */
-
-    @GetMapping
-    public String getHomePage(HttpSession session, HttpServletResponse response) throws IOException {
+    public String getHomePage(HttpSession session){
         if (session.getAttribute("user") == null) {
-            response.sendRedirect("/401");
+            return "401";
         }
-        return "home";
+        return "redirect:/your_arranged";
     }
 
 

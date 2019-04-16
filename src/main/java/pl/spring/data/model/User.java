@@ -14,9 +14,9 @@ public class User {
     private String login;
     @Column
     private String password;
-    @Column(unique = true, nullable = false, name = "first_name")
+    @Column(name = "firstName")
     private String firstName;
-    @Column(unique = true, nullable = false, name = "last_name")
+    @Column(name = "lastName")
     private String lastName;
 
     public Long getId() {

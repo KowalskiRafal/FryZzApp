@@ -28,16 +28,15 @@ public class AuthenticationController {
     }
 
     @PostMapping("/")
-    public void login(String login, String password, HttpSession session, HttpServletResponse response) throws IOException {
+    public String login(String login, String password, HttpSession session) {
         boolean validCredentials = userService.checkCredentials(login, password);
         if (!validCredentials) {
-            response.sendRedirect("/401");
-            return;
+            return "401";
         }
 
         LoggedUserDTO user = userService.getUser(login, password);
         session.setAttribute("user", user);
-        response.sendRedirect("/home"); // przekierowuje na strone glowna
+        return "redirect:/your_arranged";
     }
 
     @GetMapping("/logout")

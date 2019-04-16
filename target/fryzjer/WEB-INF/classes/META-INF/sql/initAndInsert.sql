@@ -1,49 +1,61 @@
 -- Wyczyszczenie bazy
-DROP TABLE IF EXISTS users;
+
 DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS users;
 
 -- Tabela z użytkownikami
 CREATE TABLE `users` (
                        `id` bigint NOT NULL AUTO_INCREMENT,
-                       `firstName` varchar(255) DEFAULT NULL,
-                       `lastName` varchar(255) DEFAULT NULL,
+                       `firstName` varchar(255) NOT NULL,
+                       `lastName` varchar(255) NOT NULL,
                        `login` varchar(255) NOT NULL,
                        `password` varchar(255) NOT NULL,
                        PRIMARY KEY (`id`),
-                       UNIQUE KEY `UK_ow0gan20590jrb00upg3va2fn` (`login`)
+                       UNIQUE KEY `UK_ow0gan20590jrb00upg3va2fn` (`id`)
 );
 
 
 CREATE TABLE `customers` (
                            `id` bigint NOT NULL AUTO_INCREMENT,
-                           `firstName` varchar(255) DEFAULT NULL,
-                           `lastName` varchar(255) DEFAULT NULL,
-                           `telephoneNumber` varchar(255) DEFAULT NULL,
-                           `visit_date` date DEFAULT NULL,
-                           `visit_time` time DEFAULT NULL,
-                           `assigned_hairdresser` varchar(255) DEFAULT NULL,
-                           `additional_info` varchar(500) DEFAULT NULL,
+                           `firstName` varchar(255) NOT NULL,
+                           `lastName` varchar(255) NOT NULL,
+                           `telephoneNumber` varchar(255) NOT NULL,
+                           `visitDate` date DEFAULT NULL,
+                           `visitTime` time DEFAULT NULL,
+                           `assignedHairdresser` varchar(255) DEFAULT NULL,
+                           `additionalInfo` varchar(500) DEFAULT NULL,
                            `comments` varchar(500) DEFAULT NULL,
                            PRIMARY KEY (`id`),
-                           UNIQUE KEY `UK_ow0gan20590jrb00upg3va2fn` (`telephoneNumber`)
+                           UNIQUE KEY `UK_ow0gan20590jrb00upg3va2fn` (`id`)
 );
 
 -- Testowi fryzjerzy
 INSERT INTO users (login, password, firstName, lastName) VALUES ('jnowak', 'jnowak', 'Jan', 'Nowak');
 INSERT INTO users (login, password, firstName, lastName) VALUES ('jkowalki', 'jkowalki', 'Jan', 'Kowalski');
 INSERT INTO users (login, password, firstName, lastName) VALUES ('sgomez', 'sgomez', 'Selena', 'Gomez');
-INSERT INTO users (login, password, firstName, lastName) VALUES ('admin', 'admin', 'Admin', 'Admin');
+INSERT INTO users (login, password, firstName, lastName) VALUES ('admin', 'admin', 'Ędward', 'Ącki');
 
 
 -- testowi petenci
 
-INSERT INTO customers (firstName, lastName, telephoneNumber, visit_date, visit_time, assigned_hairdresser, additional_info, comments)
-VALUES ('Cameron', 'Diaz', '0700123456789', '2019-01-01', '10:00:00', 'jkowalki', 'Fajna jest', 'Lubi blond');
-INSERT INTO customers (firstName, lastName, telephoneNumber, visit_date, visit_time, assigned_hairdresser, additional_info, comments)
-VALUES ('Rocky', 'Balboa', '00166651098', '2019-01-01', '10:30:00', 'jkowalki', 'Brak additionalInfo', 'Zawsze na krótko');
--- INSERT INTO customers (firstName, lastName, telephoneNumber, visit_date, visit_time, assigned_hairdresser, additional_info, comments)
--- VALUES ('Jack', 'Sparrow', '751974346', '2019-01-01', '11:00:00', 'jkowalki', 'Ukradl terminal', 'Wezwac policję');
-INSERT INTO customers (firstName, lastName, telephoneNumber, visit_date, visit_time, assigned_hairdresser, additional_info, comments)
-VALUES ('Pamela', 'Anderson', '000465468345', '2019-01-02', '12:00:00', 'jkowalki', 'Big tits', 'Brak');
-INSERT INTO customers (firstName, lastName, telephoneNumber, visit_date, visit_time, assigned_hairdresser, additional_info, comments)
-VALUES ('Anna', 'Grodzka', '2657765453543556', '2019-01-02', '13:00:00', 'jkowalki', '...', 'No comments');
+INSERT INTO customers (firstName, lastName, telephoneNumber, visitDate, visitTime, assignedHairdresser, additionalInfo, comments)
+VALUES ('Cameron', 'Diaz', '700100100', '2019-01-01', '10:00:01', 'jkowalki', 'średniej długości włosy', 'Lubi ... wiecie co');
+INSERT INTO customers (firstName, lastName, telephoneNumber, visitDate, visitTime, assignedHairdresser, additionalInfo, comments)
+VALUES ('Rocky', 'Balboa', '111222333', '2019-01-01', '10:30:01', 'jkowalki', 'Na łyso', 'bywa agresywny');
+INSERT INTO customers (firstName, lastName, telephoneNumber, visitDate, visitTime, assignedHairdresser, additionalInfo, comments)
+VALUES ('Jack', 'Sparrow', '378378378', '2019-01-01', '11:00:01', 'jnowak', 'Długie kołtuny', 'rzadko się myje');
+INSERT INTO customers (firstName, lastName, telephoneNumber, visitDate, visitTime, assignedHairdresser, additionalInfo, comments)
+VALUES ('Pamela', 'Anderson', '530530530', '2019-01-02', '12:00:01', 'sgomez', 'platyna', 'cycki zasłaniają świat');
+INSERT INTO customers (firstName, lastName, telephoneNumber, visitDate, visitTime, assignedHairdresser, additionalInfo, comments)
+VALUES ('Anna', 'Grodzka', '666666666', '2019-01-02', '13:00:01', 'sgomez', 'Lubi grzywkę', 'babochłop');
+
+INSERT INTO customers (firstName, lastName, telephoneNumber, visitDate, visitTime, assignedHairdresser, additionalInfo, comments)
+VALUES ('Donald', 'Trump', '987987987', '2019-01-03', '13:30:01', 'jnowak', 'Zawsze tupecik', 'Daje napiwki');
+INSERT INTO customers (firstName, lastName, telephoneNumber)
+VALUES ('Łukasz', 'Józefowicz', '654645654');
+INSERT INTO customers (firstName, lastName, telephoneNumber)
+VALUES ('Przemysław', 'Karcz', '987987987');
+INSERT INTO customers (firstName, lastName, telephoneNumber)
+VALUES ('Rafał', 'Kowalski', '234234234');
+INSERT INTO customers (firstName, lastName, telephoneNumber)
+VALUES ('Marcin', 'Podsiadły', '765765765');
