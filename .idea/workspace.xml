@@ -7,132 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0484bbff-93e8-4dd5-bfd4-183619c625f4" name="Default Changelist" comment="najnowsza wersja - prawie wszystko jest">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/fryzjer_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/fryzjer_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eba86618-f756-4c1a-9924-dd2d9c88bf87.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eba86618-f756-4c1a-9924-dd2d9c88bf87/storage_v2/_src_/schema/bookstore.mCfKeQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eba86618-f756-4c1a-9924-dd2d9c88bf87/storage_v2/_src_/schema/cdcol.fw2iBQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eba86618-f756-4c1a-9924-dd2d9c88bf87/storage_v2/_src_/schema/fryzjer_db_test._soWug.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eba86618-f756-4c1a-9924-dd2d9c88bf87/storage_v2/_src_/schema/samochody.TxAlQA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eba86618-f756-4c1a-9924-dd2d9c88bf87/storage_v2/_src_/schema/stroje.GXbVyg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eba86618-f756-4c1a-9924-dd2d9c88bf87/storage_v2/_src_/schema/testapp.TxQ3qw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eba86618-f756-4c1a-9924-dd2d9c88bf87/storage_v2/_src_/schema/webauth._N7xSA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/spring/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/DeleteCustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/EditCustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/PDFGenerationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/SingleCustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/SupportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add_visit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cancel_visit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit_comments.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit_customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit_info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit_visit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/elements/doc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/single_customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/support.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/sources/Dokumentacja.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fryzjer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fryzjer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/core/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/core/services/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/core/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/core/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/data/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/data/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/data/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/data/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/data/repositories/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/data/repositories/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/data/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/dto/AddCustomerDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/dto/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/AddCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/AddCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/AddedCustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/DisplayCustomersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/DisplayCustomersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/ErrorPageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/HomePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/sql/initAndInsert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/initAndInsert.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add_customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add_customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/added_customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/added_customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/arranged_customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/arranged_customers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/elements/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/elements/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/find-customer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/not_arranged_customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/not_arranged_customers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/fryzjer.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sql/initAndInsert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/sql/initAndInsert.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/core/services/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/core/services/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/core/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/core/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/data/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/data/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/data/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/data/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/data/repositories/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/data/repositories/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/dto/AddCustomerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/dto/CustomerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/AddCustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/AddCustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/AddedCustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/AuthenticationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/DisplayCustomersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/DisplayCustomersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/ErrorPageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/HomePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/spring/mvc/controllers/HomePageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/META-INF/sql/initAndInsert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/META-INF/sql/initAndInsert.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/core/services/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/core/services/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/core/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/core/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/data/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/data/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/data/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/data/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/data/repositories/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/data/repositories/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/dto/AddCustomerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/dto/CustomerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/AddCustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/AddCustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/AddedCustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/AuthenticationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/DisplayCustomersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/DisplayCustomersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/ErrorPageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/HomePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/classes/pl/spring/mvc/controllers/HomePageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/add_customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/add_customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/added_customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/added_customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/arranged_customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/arranged_customers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/customers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/elements/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/elements/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/not_arranged_customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fryzjer/WEB-INF/views/not_arranged_customers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -243,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/PDFGenerationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="289">
               <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -265,7 +140,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/sources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -279,11 +154,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/DisplayCustomersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="222">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -376,7 +251,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="356" />
+    <option name="x" value="355" />
     <option name="y" value="215" />
     <option name="width" value="775" />
     <option name="height" value="690" />
@@ -388,7 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -523,6 +397,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -532,13 +407,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555269376570" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/portfolio-ftp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -664,16 +540,19 @@
       <workItem from="1555139339533" duration="20038000" />
       <workItem from="1555167771242" duration="13593000" />
       <workItem from="1555226643380" duration="2886000" />
+      <workItem from="1555413496139" duration="809000" />
+      <workItem from="1556090105714" duration="205000" />
+      <workItem from="1556124012283" duration="1135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138557000" />
+    <option name="totallyTimeSpent" value="140706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49501" visible="true" weight="0.20588236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49501" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.50499004" side_tool="true" weight="0.23459384" />
@@ -1031,27 +910,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/HomePageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/spring/data/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/DisplayCustomersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1067,16 +929,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/PDFGenerationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="289">
           <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/spring/core/services/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1089,10 +948,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/sources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/HomePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/spring/mvc/controllers/DisplayCustomersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
